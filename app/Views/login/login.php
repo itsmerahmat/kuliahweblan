@@ -13,7 +13,7 @@
         <?php endif; ?>
 
         <!-- Form Login -->
-        <?= form_open('auth/authenticate') ?>
+        <?= form_open('authenticate') ?>
         <div class="mb-3">
             <label for="username" class="form-label">Username</label>
             <input type="text" name="username" id="username" class="form-control" placeholder="Masukkan username" required>

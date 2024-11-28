@@ -30,7 +30,13 @@ $routes->group('belajar-library', static function ($routes) {
 });
 
 // $routes->get('/login', 'AuthController::login');
-$routes->group('auth', static function ($routes) {
-    $routes->get('login', 'AuthController::login');
-    $routes->post('authenticate', 'AuthController::authenticate');
-});
+// $routes->group('auth', static function ($routes) {
+//     $routes->get('login', 'AuthController::login');
+//     $routes->post('authenticate', 'AuthController::authenticate');
+// });
+
+$routes->get('login', 'AuthController::login');
+$routes->post('authenticate', 'AuthController::authenticate');
+$routes->get('logout', 'AuthController::logout');
+
+$routes->get('dashboard', 'Dashboard::index');

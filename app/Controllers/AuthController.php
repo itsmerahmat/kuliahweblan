@@ -26,7 +26,14 @@ class AuthController extends BaseController
             return redirect()->to('/dashboard');
         } else {
             $session->setFlashdata('msg', 'Username/Password Salah');
-            return redirect()->to('/auth/login');
+            return redirect()->to('/login');
         }
+    }
+
+    public function logout()
+    {
+        $session = session();
+        $session->destroy();
+        return redirect()->to('/login');
     }
 }
