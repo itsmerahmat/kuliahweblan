@@ -1,0 +1,440 @@
+CRITICAL - 2024-10-31 05:13:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "LatihanSatuView.php"
+[Method: GET, Route: belajar/latihan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('LatihanSatuView.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('LatihanSatuView', [], true)
+ 3 APPPATH\Controllers\Belajar.php(42): view('LatihanSatuView', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Belajar->latihan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Belajar))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 05:14:30 --> Error: Class "App\Controllers\Belajarm" not found
+[Method: GET, Route: belajar/latihan]
+in APPPATH\Controllers\Belajar.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Belajar->latihan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Belajar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 05:14:31 --> Error: Class "App\Controllers\Belajarm" not found
+[Method: GET, Route: belajar/latihan]
+in APPPATH\Controllers\Belajar.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Belajar->latihan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Belajar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 05:14:32 --> Error: Class "App\Controllers\Belajarm" not found
+[Method: GET, Route: belajar/latihan]
+in APPPATH\Controllers\Belajar.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Belajar->latihan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Belajar))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 06:09:02 --> ErrorException: Cannot redeclare belajar() (previously declared in D:\RuangAlgo\www\pemweblan\app\Helpers\belajar_helper.php:3)
+[Method: GET, Route: belajar-helper]
+in APPPATH\Helpers\nama_helper.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-31 06:09:03 --> ErrorException: Cannot redeclare belajar() (previously declared in D:\RuangAlgo\www\pemweblan\app\Helpers\belajar_helper.php:3)
+[Method: GET, Route: belajar-helper]
+in APPPATH\Helpers\nama_helper.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-31 06:09:04 --> ErrorException: Cannot redeclare belajar() (previously declared in D:\RuangAlgo\www\pemweblan\app\Helpers\belajar_helper.php:3)
+[Method: GET, Route: belajar-helper]
+in APPPATH\Helpers\nama_helper.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-31 06:09:04 --> ErrorException: Cannot redeclare belajar() (previously declared in D:\RuangAlgo\www\pemweblan\app\Helpers\belajar_helper.php:3)
+[Method: GET, Route: belajar-helper]
+in APPPATH\Helpers\nama_helper.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-31 06:09:05 --> ErrorException: Cannot redeclare belajar() (previously declared in D:\RuangAlgo\www\pemweblan\app\Helpers\belajar_helper.php:3)
+[Method: GET, Route: belajar-helper]
+in APPPATH\Helpers\nama_helper.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-31 06:19:55 --> TypeError: explode(): Argument #2 ($string) must be of type string, DateTime given
+[Method: GET, Route: belajar-helper/amount]
+in APPPATH\Helpers\belajar_helper.php on line 24.
+ 1 APPPATH\Helpers\belajar_helper.php(24): explode('.', Object(DateTime))
+ 2 APPPATH\Controllers\BelajarHelper.php(19): tanggal(Object(DateTime))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarHelper->helper()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarHelper))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 06:19:56 --> TypeError: explode(): Argument #2 ($string) must be of type string, DateTime given
+[Method: GET, Route: belajar-helper/amount]
+in APPPATH\Helpers\belajar_helper.php on line 24.
+ 1 APPPATH\Helpers\belajar_helper.php(24): explode('.', Object(DateTime))
+ 2 APPPATH\Controllers\BelajarHelper.php(19): tanggal(Object(DateTime))
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarHelper->helper()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarHelper))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 06:21:33 --> ErrorException: Undefined array key "Oct"
+[Method: GET, Route: belajar-helper/amount]
+in APPPATH\Helpers\belajar_helper.php on line 25.
+ 1 APPPATH\Helpers\belajar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Oct"', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Helpers\\belajar_helper.php', 25)
+ 2 APPPATH\Controllers\BelajarHelper.php(19): tanggal('31.Oct.24')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarHelper->helper()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarHelper))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-31 06:28:50 --> ParseError: syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: belajar-helper/amount]
+in APPPATH\Controllers\BelajarHelper.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\RuangAlgo\\www\\pemweblan\\app\\Controllers\\BelajarHelper.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BelajarHelper')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BelajarHelper')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\BelajarHelper', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:41:02 --> ErrorException: Array to string conversion
+[Method: GET, Route: belajar-library]
+in APPPATH\Controllers\BelajarLibrary.php on line 17.
+ 1 APPPATH\Controllers\BelajarLibrary.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Controllers\\BelajarLibrary.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:41:44 --> ErrorException: Array to string conversion
+[Method: GET, Route: belajar-library]
+in APPPATH\Controllers\BelajarLibrary.php on line 17.
+ 1 APPPATH\Controllers\BelajarLibrary.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Controllers\\BelajarLibrary.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:41:45 --> ErrorException: Array to string conversion
+[Method: GET, Route: belajar-library]
+in APPPATH\Controllers\BelajarLibrary.php on line 17.
+ 1 APPPATH\Controllers\BelajarLibrary.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Controllers\\BelajarLibrary.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:41:45 --> ErrorException: Array to string conversion
+[Method: GET, Route: belajar-library]
+in APPPATH\Controllers\BelajarLibrary.php on line 17.
+ 1 APPPATH\Controllers\BelajarLibrary.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Controllers\\BelajarLibrary.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:41:46 --> ErrorException: Array to string conversion
+[Method: GET, Route: belajar-library]
+in APPPATH\Controllers\BelajarLibrary.php on line 17.
+ 1 APPPATH\Controllers\BelajarLibrary.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Controllers\\BelajarLibrary.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:41:46 --> ErrorException: Array to string conversion
+[Method: GET, Route: belajar-library]
+in APPPATH\Controllers\BelajarLibrary.php on line 17.
+ 1 APPPATH\Controllers\BelajarLibrary.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Controllers\\BelajarLibrary.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:41:46 --> ErrorException: Array to string conversion
+[Method: GET, Route: belajar-library]
+in APPPATH\Controllers\BelajarLibrary.php on line 17.
+ 1 APPPATH\Controllers\BelajarLibrary.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Controllers\\BelajarLibrary.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:57:05 --> Error: Cannot use object of type CodeIgniter\Session\Session as array
+[Method: GET, Route: belajar-library]
+in APPPATH\Views\v_belajar_library.php on line 3.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 4 APPPATH\Controllers\BelajarLibrary.php(15): view('v_belajar_library')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:57:07 --> Error: Cannot use object of type CodeIgniter\Session\Session as array
+[Method: GET, Route: belajar-library]
+in APPPATH\Views\v_belajar_library.php on line 3.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 4 APPPATH\Controllers\BelajarLibrary.php(15): view('v_belajar_library')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:57:43 --> ErrorException: Attempt to read property "username" on array
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 5.
+ 1 APPPATH\Views\v_belajar_library.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Views\\v_belajar_library.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\RuangAlgo\\www\\pemweblan\\app\\Views\\v_belajar_library.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 5 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:57:44 --> ErrorException: Attempt to read property "username" on array
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 5.
+ 1 APPPATH\Views\v_belajar_library.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Views\\v_belajar_library.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\RuangAlgo\\www\\pemweblan\\app\\Views\\v_belajar_library.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 5 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:57:49 --> ErrorException: Attempt to read property "username" on array
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 5.
+ 1 APPPATH\Views\v_belajar_library.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Views\\v_belajar_library.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\RuangAlgo\\www\\pemweblan\\app\\Views\\v_belajar_library.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 5 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:57:50 --> ErrorException: Array to string conversion
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 5.
+ 1 APPPATH\Views\v_belajar_library.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Views\\v_belajar_library.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\RuangAlgo\\www\\pemweblan\\app\\Views\\v_belajar_library.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 5 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 06:57:50 --> ErrorException: Array to string conversion
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 5.
+ 1 APPPATH\Views\v_belajar_library.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\RuangAlgo\\www\\pemweblan\\app\\Views\\v_belajar_library.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\RuangAlgo\\www\\pemweblan\\app\\Views\\v_belajar_library.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 5 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 06:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 06:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-31 07:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 07:22:11 --> Error: Class "app\Libraries\CustomLib" not found
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 4 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 07:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 07:22:12 --> Error: Class "app\Libraries\CustomLib" not found
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 4 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 07:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 07:22:13 --> Error: Class "app\Libraries\CustomLib" not found
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 4 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 07:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 07:22:36 --> Error: Class "app\Libraries\CustomLib" not found
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 4 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 07:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 07:22:37 --> Error: Class "app\Libraries\CustomLib" not found
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 4 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 07:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 07:22:37 --> Error: Class "app\Libraries\CustomLib" not found
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 4 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 07:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 07:22:37 --> Error: Class "app\Libraries\CustomLib" not found
+[Method: GET, Route: belajar-library/login]
+in APPPATH\Views\v_belajar_library.php on line 4.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_belajar_library', [], true)
+ 4 APPPATH\Controllers\BelajarLibrary.php(26): view('v_belajar_library')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BelajarLibrary->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarLibrary))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 07:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-31 07:24:07 --> ParseError: syntax error, unexpected token "echo", expecting "," or ";"
+[Method: GET, Route: belajar-library/coba-lib]
+in APPPATH\Controllers\BelajarLibrary.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\RuangAlgo\\www\\pemweblan\\app\\Controllers\\BelajarLibrary.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BelajarLibrary')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BelajarLibrary')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\BelajarLibrary', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-31 07:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
